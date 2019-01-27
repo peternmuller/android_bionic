@@ -406,6 +406,7 @@ cc_library {
         "-DFLT_EVAL_METHOD=0",
         "-include freebsd-compat.h",
         "-include fenv-access.h",
+        "-ffp-contract=fast",
         "-fno-builtin",
         "-fno-math-errno",
         "-Wall",
