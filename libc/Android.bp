@@ -1727,6 +1727,7 @@ cc_library {
         export_preprocessed_headers: ["include"],
         export_llndk_headers: ["libc_llndk_headers"],
     },
+    lto_Instr100: true,
 }
 
 cc_library {
